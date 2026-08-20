@@ -9,11 +9,9 @@ export default function CourseDetails({ searchParams }) {
       {/* Page Title */}
       <div className="mb-8">
         <h1 className="text-3xl font-bold text-gray-900 mb-2">
-          جزئیات دوره: برنامه نویسی شی گرا (جاوا)
+          جزئیات دوره: کارآفرینی
         </h1>
-        <p className="text-gray-600">
-          اطلاعات کامل دوره برنامه نویسی شی گرا (جاوا)
-        </p>
+        <p className="text-gray-600">اطلاعات کامل دوره کارآفرینی</p>
       </div>
 
       {/* Course Information */}
@@ -26,22 +24,20 @@ export default function CourseDetails({ searchParams }) {
           <div className="space-y-4">
             <div>
               <h3 className="font-bold text-gray-900 mb-2">نام درس به فارسی</h3>
-              <p className="text-gray-700">برنامه نویسی شی گرا (جاوا)</p>
+              <p className="text-gray-700">کارآفرینی</p>
             </div>
             <div>
               <h3 className="font-bold text-gray-900 mb-2">
                 نام درس به انگلیسی
               </h3>
-              <p className="text-gray-700">
-                Object-Oriented Programming (Java)
-              </p>
+              <p className="text-gray-700">Entrepreneurship</p>
             </div>
             <div>
               <h3 className="font-bold text-gray-900 mb-2">
                 رشته، گرایش، نوع و واحد درس
               </h3>
               <p className="text-gray-700">
-                مهندسی کامپیوتر – نرم‌افزار، اختصاصی، 3 واحد
+                مهندسي کامپيوتر – نرم‌افزار، اختیاری، 3 واحد
               </p>
             </div>
             <div>
@@ -53,17 +49,17 @@ export default function CourseDetails({ searchParams }) {
           <div className="space-y-4">
             <div>
               <h3 className="font-bold text-gray-900 mb-2">پیش نیازها</h3>
-              <p className="text-gray-700">
-                مبانی برنامه‌نویسی یا برنامه سازی ساخت یافته
-              </p>
-            </div>
-            <div>
-              <h3 className="font-bold text-gray-900 mb-2">هم نیازها</h3>
               <p className="text-gray-700">-</p>
             </div>
             <div>
+              <h3 className="font-bold text-gray-900 mb-2">هم نیازها</h3>
+              <p className="text-gray-700">مهندسی نرم‌افزار</p>
+            </div>
+            <div>
               <h3 className="font-bold text-gray-900 mb-2">مطالب پیش نیاز</h3>
-              <p className="text-gray-700">مفاهیم پایه برنامه نویسی</p>
+              <p className="text-gray-700">
+                مفاهیم پایه مهندسی نرم‌افزار و برنامه‌سازی
+              </p>
             </div>
             <div>
               <h3 className="font-bold text-gray-900 mb-2">سطح دوره</h3>
@@ -79,10 +75,11 @@ export default function CourseDetails({ searchParams }) {
           توضیح کوتاه درس
         </h2>
         <p className="text-gray-700 leading-relaxed">
-          در این درس، مفاهیم برنامه‌نویسی شیءگرا در قالب زبان برنامه‌نویسی جاوا
-          تدریس می‌شود. همچنین ویژگی‌های ذاتی زبان جاوا، امکانات برنامه‌سازی در
-          جاوا، تفاوت رویکرد جاوا با زبان‌های مشابه در موارد مختلف، برنامه‌سازی
-          همروند و کیفیت نرم‌افزار مورد توجه قرار می‌گیرد.
+          این درس دانش‌پذیران را با اصول، واژگان و مفاهیم ایجاد کسب‌وکارهای
+          نوآورانه و کارآفرینی آشنا می‌سازد. هدف دوره افزایش شانس موفقیت در
+          راه‌اندازی، اجرا و رشد شرکت‌های نوآور است و چارچوبی علمی و عملی برای
+          طی مسیر سرمایه‌گذاری فراهم می‌کند تا تیم‌های کسب‌وکار سریع‌تر به
+          موفقیت برسند یا در صورت لزوم زودتر مسیر ناکارآمد را رها کنند.
         </p>
       </div>
 
@@ -95,34 +92,32 @@ export default function CourseDetails({ searchParams }) {
           <li className="flex items-start">
             <span className="text-blue-600 ml-2">•</span>
             <span className="text-gray-700">
-              آشنایی با مفاهیم پایه‌ای شی‌گرایی مانند کلاس، شیء، متد و ویژگی
+              تشکیل تیم مکمل و ایجاد فرهنگ نوآوری
             </span>
           </li>
           <li className="flex items-start">
             <span className="text-blue-600 ml-2">•</span>
             <span className="text-gray-700">
-              درک اصول چهارگانه شی‌گرایی شامل کپسوله‌سازی، وراثت، چندریختی و
-              انتزاع
+              تحلیل بازار، انتخاب بازار ساحلی و شناسایی فرضیات جهشی
             </span>
           </li>
           <li className="flex items-start">
             <span className="text-blue-600 ml-2">•</span>
             <span className="text-gray-700">
-              توانایی طراحی و پیاده‌سازی کلاس‌ها و ارتباط بین آن‌ها در قالب
-              پروژه‌های کوچک
+              طراحی و ساخت MVP و اجرای چرخه Build-Measure-Learn با پذیرندگان
+              اولیه
             </span>
           </li>
           <li className="flex items-start">
             <span className="text-blue-600 ml-2">•</span>
             <span className="text-gray-700">
-              آشنایی با مدیریت خطا و استثناها (Exception Handling) در جاوا
+              آزمایش A/B، شناسایی موتورهای رشد و طراحی مدل کسب‌وکار پایدار
             </span>
           </li>
           <li className="flex items-start">
             <span className="text-blue-600 ml-2">•</span>
             <span className="text-gray-700">
-              به‌کارگیری مجموعه‌ها (Collections) و انواع داده‌های پیشرفته در حل
-              مسائل
+              مدیریت مالی، جذب سرمایه خطرپذیر و برنامه‌ریزی برای خروج موفق (IPO)
             </span>
           </li>
         </ul>
@@ -135,19 +130,19 @@ export default function CourseDetails({ searchParams }) {
           <li className="flex items-start">
             <span className="text-blue-600 ml-2">•</span>
             <span className="text-gray-700">
-              دانشجویان مهندسی و علوم کامپیوتر
+              دانشجویان رشته‌های مهندسی و علوم پایه
             </span>
           </li>
           <li className="flex items-start">
             <span className="text-blue-600 ml-2">•</span>
             <span className="text-gray-700">
-              مهندسین نرم‌افزار و برنامه‌نویسان شرکت‌های صنعتی
+              علاقه‌مندان به تأسیس کسب‌وکار و شرکت‌های نوآور
             </span>
           </li>
           <li className="flex items-start">
             <span className="text-blue-600 ml-2">•</span>
             <span className="text-gray-700">
-              علاقه‌مندان به پژوهش در حوزه علوم کامپیوتر و نرم‌افزار
+              علاقه‌مندان به پژوهش در حوزه کارآفرینی
             </span>
           </li>
         </ul>
@@ -180,137 +175,101 @@ export default function CourseDetails({ searchParams }) {
         <div className="space-y-6">
           <div>
             <h3 className="text-lg font-bold text-gray-900 mb-3">
-              آشنایی با زبان جاوا و مفاهیم اولیه برنامه‌سازی در جاوا (۲ جلسه)
+              مقدمه (2 جلسه)
             </h3>
-            <p className="text-gray-700">
-              تاریخچه و ویژگی‌های زبان جاوا، متغیر، متد، شرط، حلقه، داده‌های
-              اولیه (Primitive Data Types)، رشته، آرایه
-            </p>
+            <ul className="space-y-1 text-gray-700 list-disc pr-5">
+              <li>آشنایی با تاریخچه، تعاریف و انواع کارآفرینی</li>
+              <li>بینش‌های رایج اشتباه و محرک‌های کارآفرینی</li>
+              <li>تفاوت‌های کارآفرینی با مدیریت و خوداشتغالی</li>
+              <li>نمونه‌های موفق و شکست‌خورده کارآفرینی</li>
+            </ul>
           </div>
 
           <div>
             <h3 className="text-lg font-bold text-gray-900 mb-3">
-              مقدمه‌ای بر طراحی و برنامه‌سازی شیءگرا (۱ جلسه)
+              چالش‌های کارآفرینی تیمی و انفرادی (2 جلسه)
             </h3>
-            <p className="text-gray-700">
-              مفاهیم اولیه شیءگرایی، طرز تفکر و طراحی شیءگرا، رویکرد شیءگرا در
-              مقابل سایر رویکردها، لفاف‌بندی، واسط، رده، بسته، دسترسی
-            </p>
+            <ul className="space-y-1 text-gray-700 list-disc pr-5">
+              <li>چالش‌های راه‌اندازی کسب‌وکار تیمی و مدل 3R</li>
+              <li>چالش‌های راه‌اندازی کسب‌وکار انفرادی</li>
+            </ul>
           </div>
 
           <div>
             <h3 className="text-lg font-bold text-gray-900 mb-3">
-              برنامه‌سازی شیءگرا در جاوا (۴ جلسه)
+              بخش‌بندی و انتخاب بازار (2 جلسه)
             </h3>
-            <p className="text-gray-700">
-              نحوه تعریف کلاس‌ها، اشیاء در حافظه و مدیریت حافظه، بارگذاری اولیه
-              و مرگ اشیاء در حافظه، زباله‌روب (Garbage Collector)، روش‌های ارسال
-              پارامتر در زبان‌های مختلف و جاوا، سازنده، this، اعضای ایستا، بسته
-              (package)، نمودار UML Class Diagram
-            </p>
+            <ul className="space-y-1 text-gray-700 list-disc pr-5">
+              <li>ماتریس بخش‌بندی بازار و پژوهش اولیه و ثانویه</li>
+              <li>استفاده از هوش مصنوعی برای پژوهش در بازار</li>
+              <li>انتخاب بازار ساحلی و برآورد TAM و درآمد</li>
+              <li>ایجاد پروفایل مشتری در بازار ساحلی</li>
+            </ul>
           </div>
 
           <div>
             <h3 className="text-lg font-bold text-gray-900 mb-3">
-              وراثت (۱ جلسه)
+              تولید و پرورش ایده‌های کسب‌وکار (1 جلسه)
             </h3>
-            <p className="text-gray-700">
-              مفهوم وراثت، Protected, abstract, super
-            </p>
+            <ul className="space-y-1 text-gray-700 list-disc pr-5">
+              <li>متدولوژی Lean و شیوه‌های تفکر (محاسباتی، طراحی، داده‌ای)</li>
+              <li>ایده‌پردازی با جعبه مورفولوژیکی، طوفان فکری و تضادها</li>
+              <li>شناسایی رقبا و مزایای رقابتی</li>
+            </ul>
           </div>
 
           <div>
             <h3 className="text-lg font-bold text-gray-900 mb-3">
-              چندریختی (۱ جلسه)
+              مدل کسب‌وکار و چارچوب قیمت‌گذاری (2 جلسه)
             </h3>
-            <p className="text-gray-700">چندریختی با کمک وراثت، اعضای final</p>
+            <ul className="space-y-1 text-gray-700 list-disc pr-5">
+              <li>انواع مدل‌های کسب‌وکار و طراحی مدل</li>
+              <li>چارچوب‌های قیمت‌گذاری و عبور از شکاف</li>
+              <li>چارچوب‌ها و روش‌های تبلیغات</li>
+            </ul>
           </div>
 
           <div>
             <h3 className="text-lg font-bold text-gray-900 mb-3">
-              واسط (interface) (۱ جلسه)
+              اقتصاد مهندسی در کسب‌وکار (1 جلسه)
             </h3>
-            <p className="text-gray-700">
-              کاربرد واسط، وراثت چندگانه با کمک واسط
-            </p>
+            <ul className="space-y-1 text-gray-700 list-disc pr-5">
+              <li>ارزش زمانی پول، بهره ساده و مرکب</li>
+              <li>جریان‌های مالی، نرخ تنزیل و نرخ بازگشت سرمایه</li>
+              <li>نقطه سربه‌سر</li>
+            </ul>
           </div>
 
           <div>
             <h3 className="text-lg font-bold text-gray-900 mb-3">
-              مدیریت خطا و استثنا (۱ جلسه)
+              شاخص‌های عملکرد کلیدی (KPIs) (2 جلسه)
             </h3>
-            <p className="text-gray-700">
-              مدل سنتی مدیریت خطا، چارچوب مدیریت خطا در جاوا، مزایای این مدل،
-              Finally, Runtime Exception
-            </p>
+            <ul className="space-y-1 text-gray-700 list-disc pr-5">
+              <li>ارزش طول عمر مشتری (LTV) و نرخ نگهداشت/ریزش</li>
+              <li>هزینه جذب مشتری (CoCA)، نرخ تبدیل و NPS</li>
+            </ul>
           </div>
 
           <div>
             <h3 className="text-lg font-bold text-gray-900 mb-3">
-              داده‌های عام (Generics) (۱ جلسه)
+              هوش مالی کسب‌وکار (3 جلسه)
             </h3>
-            <p className="text-gray-700">
-              متدها و کلاس‌های عام، کاربردها، تولید و استفاده از کلاس‌های عام،
-              کلاس‌های عام و وراثت
-            </p>
+            <ul className="space-y-1 text-gray-700 list-disc pr-5">
+              <li>حسابداری نقدی و تعهدی و صورت‌های مالی استاندارد</li>
+              <li>انواع استهلاک، سهام عادی و ممتاز و سود سهام</li>
+              <li>ارزش‌گذاری کسب‌وکار</li>
+            </ul>
           </div>
 
           <div>
             <h3 className="text-lg font-bold text-gray-900 mb-3">
-              مجموعه‌ها و ظرف‌ها (Containers) (۱ جلسه)
+              توسعه طرح کسب‌وکار و ارائه‌های آن (1 جلسه)
             </h3>
-            <p className="text-gray-700">
-              ساختمان‌داده‌های موجود در جاوا، Colections, ArrayList, LinkedList,
-              Set, Map, Iterator
-            </p>
-          </div>
-
-          <div>
-            <h3 className="text-lg font-bold text-gray-900 mb-3">
-              فایل، جویبار و شبکه (۱ جلسه)
-            </h3>
-            <p className="text-gray-700">
-              ورودی و خروجی در فایل، Serialization، برنامه‌سازی تحت شبکه
-              (socket)
-            </p>
-          </div>
-
-          <div>
-            <h3 className="text-lg font-bold text-gray-900 mb-3">
-              برنامه‌سازی همروند (۱ جلسه)
-            </h3>
-            <p className="text-gray-700">
-              نیاز به همروندی، همروندی در جاوا، طول عمر یک thread، آشنایی اولیه
-              با مفاهیم Synchronization و critical section
-            </p>
-          </div>
-
-          <div>
-            <h3 className="text-lg font-bold text-gray-900 mb-3">
-              Reflection (۱ جلسه)
-            </h3>
-            <p className="text-gray-700">
-              نیاز به RTTI، RTTI در جاوا، کاربردها
-            </p>
-          </div>
-        </div>
-      </div>
-
-      {/* Software Tools */}
-      <div className="bg-white rounded-lg shadow-md p-8 mb-8">
-        <h2 className="text-2xl font-bold text-gray-900 mb-6">
-          نرم‌افزار‌ها و ابزارهای مورد بحث
-        </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div>
-            <h3 className="text-lg font-bold text-gray-900 mb-3">
-              زبان برنامه‌نویسی
-            </h3>
-            <p className="text-gray-700">Java</p>
-          </div>
-          <div>
-            <h3 className="text-lg font-bold text-gray-900 mb-3">محیط توسعه</h3>
-            <p className="text-gray-700">IDE (IntelliJ IDEA, Eclipse, ...)</p>
+            <ul className="space-y-1 text-gray-700 list-disc pr-5">
+              <li>چشم‌انداز و مأموریت، قالب‌های طرح‌های کسب‌وکار</li>
+              <li>طراحی جداول و محاسبات طرح کسب‌وکار</li>
+              <li>تهیه pitch deck و فنون جذب سرمایه‌گذار</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -335,16 +294,16 @@ export default function CourseDetails({ searchParams }) {
             </h3>
             <div className="space-y-2">
               <div className="flex justify-between">
-                <span className="text-gray-700">تکالیف تئوری:</span>
+                <span className="text-gray-700">تکالیف میدانی:</span>
                 <span className="font-bold text-gray-900">20%</span>
               </div>
               <div className="flex justify-between">
-                <span className="text-gray-700">تکالیف عملی:</span>
-                <span className="font-bold text-gray-900">30%</span>
+                <span className="text-gray-700">پروژه (طرح کسب‌وکار):</span>
+                <span className="font-bold text-gray-900">40%</span>
               </div>
               <div className="flex justify-between">
-                <span className="text-gray-700">آزمون‌ها:</span>
-                <span className="font-bold text-gray-900">50%</span>
+                <span className="text-gray-700">آزمون پایانی:</span>
+                <span className="font-bold text-gray-900">40%</span>
               </div>
             </div>
           </div>
@@ -354,22 +313,30 @@ export default function CourseDetails({ searchParams }) {
       {/* References */}
       <div className="bg-white rounded-lg shadow-md p-8 mb-8">
         <h2 className="text-2xl font-bold text-gray-900 mb-6">مراجع درس</h2>
-        <ol className="space-y-3 text-sm">
+        <ol className="space-y-3 text-sm list-decimal pr-5">
           <li className="text-gray-700">
-            P. Deitel, H. Deitel. Java How to Program, Early Objects. 11th
-            Edition, Pearson Education, 2017.
+            Aulet, Bill. Disciplined Entrepreneurship: 24 Steps to a Successful
+            Startup, Wiley, 2024.
           </li>
           <li className="text-gray-700">
-            B. Eckel. Thinking in Java. 4th Edition, Prentice Hall, 2006.
+            Wasserman, Noam. The Founder's Dilemmas, Princeton University Press,
+            2013.
           </li>
           <li className="text-gray-700">
-            M. Fowler, K. Beck, J. Brant, W. Opdyke, and D. Roberts.
-            Refactoring: Improving the Design of Existing Code. Addison-Wesley,
-            1999.
+            Ries, Eric. The Lean Startup, Crown Business, 2011.
           </li>
           <li className="text-gray-700">
-            K. Sierra, B. Bates, and T. Gee. Head First Java. 3rd Edition,
-            O'Reilly Media, Inc, 2022.
+            Thiel, Peter., Masters, Blake. Zero to One, Crown, 2014.
+          </li>
+          <li className="text-gray-700">
+            Read, Stuart., Sarasvathy, Saras D., Dew, Nick., Wiltbank, Robert.
+            Effectual Entrepreneurship, Routledge, 2017.
+          </li>
+          <li className="text-gray-700">
+            Nandan, H. Fundamentals of Entrepreneurship, PHI Learning, 2013.
+          </li>
+          <li className="text-gray-700">
+            Bock, Laszlo. Work Rules!, Grand Central Publishing, 2022.
           </li>
         </ol>
       </div>
@@ -379,11 +346,11 @@ export default function CourseDetails({ searchParams }) {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
           <div>
             <span className="font-bold text-gray-900">تهیه‌کننده:</span>
-            <span className="text-gray-700 mr-2">معصومه طارمی راد</span>
+            <span className="text-gray-700 mr-2">مرتضی ذاکری</span>
           </div>
           <div>
             <span className="font-bold text-gray-900">نگارش:</span>
-            <span className="text-gray-700 mr-2">۱.۰</span>
+            <span className="text-gray-700 mr-2">1.0</span>
           </div>
         </div>
       </div>
@@ -394,22 +361,22 @@ export default function CourseDetails({ searchParams }) {
           <button className="bg-blue-600 hover:bg-blue-700 text-white py-3 px-8 rounded-lg transition-colors">
             ثبت‌نام در دوره
           </button>
-          <Link
+          <a
             href="/courses"
             className="bg-gray-100 hover:bg-gray-200 text-gray-700 py-3 px-8 rounded-lg transition-colors"
           >
             بازگشت به لیست دوره‌ها
-          </Link>
+          </a>
         </div>
       )}
       {fromSyllabus && (
         <div className="mt-8 flex justify-center space-x-4 space-x-reverse">
-          <Link
+          <a
             href="/syllabus"
             className="bg-gray-100 hover:bg-gray-200 text-gray-700 py-3 px-8 rounded-lg transition-colors"
           >
             بازگشت به سرفصل دوره‌ها
-          </Link>
+          </a>
         </div>
       )}
     </MainLayout>

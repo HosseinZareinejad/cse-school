@@ -1,5 +1,4 @@
 import MainLayout from "@/components/Layout/MainLayout";
-import Link from "next/link";
 
 export default function CourseDetails({ searchParams }) {
   const fromSyllabus = searchParams?.from === "syllabus";
@@ -9,10 +8,10 @@ export default function CourseDetails({ searchParams }) {
       {/* Page Title */}
       <div className="mb-8">
         <h1 className="text-3xl font-bold text-gray-900 mb-2">
-          جزئیات دوره: برنامه نویسی شی گرا (جاوا)
+          جزئیات دوره: اصول و الگوها در مهندسی نرم‌افزار
         </h1>
         <p className="text-gray-600">
-          اطلاعات کامل دوره برنامه نویسی شی گرا (جاوا)
+          اطلاعات کامل دوره اصول و الگوها در مهندسی نرم‌افزار
         </p>
       </div>
 
@@ -26,14 +25,14 @@ export default function CourseDetails({ searchParams }) {
           <div className="space-y-4">
             <div>
               <h3 className="font-bold text-gray-900 mb-2">نام درس به فارسی</h3>
-              <p className="text-gray-700">برنامه نویسی شی گرا (جاوا)</p>
+              <p className="text-gray-700">اصول و الگوها در مهندسی نرم‌افزار</p>
             </div>
             <div>
               <h3 className="font-bold text-gray-900 mb-2">
                 نام درس به انگلیسی
               </h3>
               <p className="text-gray-700">
-                Object-Oriented Programming (Java)
+                Principles and Patterns in Software Engineering
               </p>
             </div>
             <div>
@@ -41,33 +40,34 @@ export default function CourseDetails({ searchParams }) {
                 رشته، گرایش، نوع و واحد درس
               </h3>
               <p className="text-gray-700">
-                مهندسی کامپیوتر – نرم‌افزار، اختصاصی، 3 واحد
+                مهندسي کامپيوتر – نرم‌افزار، اختصاصی، 3 واحد
               </p>
             </div>
             <div>
               <h3 className="font-bold text-gray-900 mb-2">مقطع</h3>
-              <p className="text-gray-700">کارشناسی</p>
+              <p className="text-gray-700">کارشناسی ارشد</p>
             </div>
           </div>
 
           <div className="space-y-4">
             <div>
               <h3 className="font-bold text-gray-900 mb-2">پیش نیازها</h3>
-              <p className="text-gray-700">
-                مبانی برنامه‌نویسی یا برنامه سازی ساخت یافته
-              </p>
+              <p className="text-gray-700">برنامه‌نویسی شی‌گرا</p>
             </div>
             <div>
               <h3 className="font-bold text-gray-900 mb-2">هم نیازها</h3>
-              <p className="text-gray-700">-</p>
+              <p className="text-gray-700">مهندسی نرم‌افزار</p>
             </div>
             <div>
               <h3 className="font-bold text-gray-900 mb-2">مطالب پیش نیاز</h3>
-              <p className="text-gray-700">مفاهیم پایه برنامه نویسی</p>
+              <p className="text-gray-700">
+                مفاهیم پایه مهندسی نرم‌افزار و برنامه‌سازی شی‎گرا به ویژه در
+                زبان جاوا
+              </p>
             </div>
             <div>
               <h3 className="font-bold text-gray-900 mb-2">سطح دوره</h3>
-              <p className="text-gray-700">مبتدی و متوسط</p>
+              <p className="text-gray-700">متوسط و پیشرفته</p>
             </div>
           </div>
         </div>
@@ -79,10 +79,11 @@ export default function CourseDetails({ searchParams }) {
           توضیح کوتاه درس
         </h2>
         <p className="text-gray-700 leading-relaxed">
-          در این درس، مفاهیم برنامه‌نویسی شیءگرا در قالب زبان برنامه‌نویسی جاوا
-          تدریس می‌شود. همچنین ویژگی‌های ذاتی زبان جاوا، امکانات برنامه‌سازی در
-          جاوا، تفاوت رویکرد جاوا با زبان‌های مشابه در موارد مختلف، برنامه‌سازی
-          همروند و کیفیت نرم‌افزار مورد توجه قرار می‌گیرد.
+          این درس دانش‌پذیران را با اصول و الگوهای طراحی و توسعه نرم‌افزار آشنا
+          می‌کند. اصول مهندسی نرم‌افزار مانند قطب‌نما جهت درست ساخت سیستم را
+          نشان می‌دهند و الگوهای طراحی ابزاری برای رسیدن به این اصول هستند. تخطی
+          از اصول منجر به بوهای نرم‌افزار و بدهی فنی می‌شود؛ بنابراین شناخت درست
+          الگوها، پادالگوها و روش‌های بازآرایی آنها محور اصلی این درس است.
         </p>
       </div>
 
@@ -95,34 +96,19 @@ export default function CourseDetails({ searchParams }) {
           <li className="flex items-start">
             <span className="text-blue-600 ml-2">•</span>
             <span className="text-gray-700">
-              آشنایی با مفاهیم پایه‌ای شی‌گرایی مانند کلاس، شیء، متد و ویژگی
+              آشنایی با تفکر الگو-محور در مهندسی نرم‌افزار
             </span>
           </li>
           <li className="flex items-start">
             <span className="text-blue-600 ml-2">•</span>
             <span className="text-gray-700">
-              درک اصول چهارگانه شی‌گرایی شامل کپسوله‌سازی، وراثت، چندریختی و
-              انتزاع
+              یادگیری الگوهای پرکاربرد در طراحی و معماری نرم‌افزار
             </span>
           </li>
           <li className="flex items-start">
             <span className="text-blue-600 ml-2">•</span>
             <span className="text-gray-700">
-              توانایی طراحی و پیاده‌سازی کلاس‌ها و ارتباط بین آن‌ها در قالب
-              پروژه‌های کوچک
-            </span>
-          </li>
-          <li className="flex items-start">
-            <span className="text-blue-600 ml-2">•</span>
-            <span className="text-gray-700">
-              آشنایی با مدیریت خطا و استثناها (Exception Handling) در جاوا
-            </span>
-          </li>
-          <li className="flex items-start">
-            <span className="text-blue-600 ml-2">•</span>
-            <span className="text-gray-700">
-              به‌کارگیری مجموعه‌ها (Collections) و انواع داده‌های پیشرفته در حل
-              مسائل
+              آشنایی با فنون تشخیص و اعمال خودکار الگوها
             </span>
           </li>
         </ul>
@@ -141,7 +127,7 @@ export default function CourseDetails({ searchParams }) {
           <li className="flex items-start">
             <span className="text-blue-600 ml-2">•</span>
             <span className="text-gray-700">
-              مهندسین نرم‌افزار و برنامه‌نویسان شرکت‌های صنعتی
+              مهندسان نرم‌افزار و برنامه‌نویسان شرکت‌های صنعتی
             </span>
           </li>
           <li className="flex items-start">
@@ -180,137 +166,56 @@ export default function CourseDetails({ searchParams }) {
         <div className="space-y-6">
           <div>
             <h3 className="text-lg font-bold text-gray-900 mb-3">
-              آشنایی با زبان جاوا و مفاهیم اولیه برنامه‌سازی در جاوا (۲ جلسه)
+              مقدمه (1 جلسه)
             </h3>
-            <p className="text-gray-700">
-              تاریخچه و ویژگی‌های زبان جاوا، متغیر، متد، شرط، حلقه، داده‌های
-              اولیه (Primitive Data Types)، رشته، آرایه
-            </p>
+            <ul className="space-y-1 text-gray-700 list-disc pr-5">
+              <li>معنای اصول و الگوهای مهندسی نرم‌افزار</li>
+              <li>معرفی منابع مهم در حوزه اصول و الگوها</li>
+            </ul>
           </div>
 
           <div>
             <h3 className="text-lg font-bold text-gray-900 mb-3">
-              مقدمه‌ای بر طراحی و برنامه‌سازی شیءگرا (۱ جلسه)
+              اصول طراحی نرم‌افزار (2 جلسه)
             </h3>
-            <p className="text-gray-700">
-              مفاهیم اولیه شیءگرایی، طرز تفکر و طراحی شیءگرا، رویکرد شیءگرا در
-              مقابل سایر رویکردها، لفاف‌بندی، واسط، رده، بسته، دسترسی
-            </p>
+            <ul className="space-y-1 text-gray-700 list-disc pr-5">
+              <li>PHAME</li>
+              <li>GRASP</li>
+              <li>SOLID و سایر اصول طراحی</li>
+            </ul>
           </div>
 
           <div>
             <h3 className="text-lg font-bold text-gray-900 mb-3">
-              برنامه‌سازی شیءگرا در جاوا (۴ جلسه)
+              اصول مؤلفه و معماری (2 جلسه)
             </h3>
-            <p className="text-gray-700">
-              نحوه تعریف کلاس‌ها، اشیاء در حافظه و مدیریت حافظه، بارگذاری اولیه
-              و مرگ اشیاء در حافظه، زباله‌روب (Garbage Collector)، روش‌های ارسال
-              پارامتر در زبان‌های مختلف و جاوا، سازنده، this، اعضای ایستا، بسته
-              (package)، نمودار UML Class Diagram
-            </p>
+            <ul className="space-y-1 text-gray-700 list-disc pr-5">
+              <li>اصول چسبندگی و اتصال مؤلفه‌ها</li>
+              <li>متریک‌های سنجش چسبندگی و اتصال</li>
+            </ul>
           </div>
 
           <div>
             <h3 className="text-lg font-bold text-gray-900 mb-3">
-              وراثت (۱ جلسه)
+              الگوهای طراحی (8 جلسه)
             </h3>
-            <p className="text-gray-700">
-              مفهوم وراثت، Protected, abstract, super
-            </p>
+            <ul className="space-y-1 text-gray-700 list-disc pr-5">
+              <li>الگوهای تزریق وابستگی‌ها</li>
+              <li>الگوهای آفرینشی</li>
+              <li>الگوهای ساختاری</li>
+              <li>الگوهای رفتاری</li>
+            </ul>
           </div>
 
           <div>
             <h3 className="text-lg font-bold text-gray-900 mb-3">
-              چندریختی (۱ جلسه)
+              پادالگوها و بوهای طراحی (3 جلسه)
             </h3>
-            <p className="text-gray-700">چندریختی با کمک وراثت، اعضای final</p>
-          </div>
-
-          <div>
-            <h3 className="text-lg font-bold text-gray-900 mb-3">
-              واسط (interface) (۱ جلسه)
-            </h3>
-            <p className="text-gray-700">
-              کاربرد واسط، وراثت چندگانه با کمک واسط
-            </p>
-          </div>
-
-          <div>
-            <h3 className="text-lg font-bold text-gray-900 mb-3">
-              مدیریت خطا و استثنا (۱ جلسه)
-            </h3>
-            <p className="text-gray-700">
-              مدل سنتی مدیریت خطا، چارچوب مدیریت خطا در جاوا، مزایای این مدل،
-              Finally, Runtime Exception
-            </p>
-          </div>
-
-          <div>
-            <h3 className="text-lg font-bold text-gray-900 mb-3">
-              داده‌های عام (Generics) (۱ جلسه)
-            </h3>
-            <p className="text-gray-700">
-              متدها و کلاس‌های عام، کاربردها، تولید و استفاده از کلاس‌های عام،
-              کلاس‌های عام و وراثت
-            </p>
-          </div>
-
-          <div>
-            <h3 className="text-lg font-bold text-gray-900 mb-3">
-              مجموعه‌ها و ظرف‌ها (Containers) (۱ جلسه)
-            </h3>
-            <p className="text-gray-700">
-              ساختمان‌داده‌های موجود در جاوا، Colections, ArrayList, LinkedList,
-              Set, Map, Iterator
-            </p>
-          </div>
-
-          <div>
-            <h3 className="text-lg font-bold text-gray-900 mb-3">
-              فایل، جویبار و شبکه (۱ جلسه)
-            </h3>
-            <p className="text-gray-700">
-              ورودی و خروجی در فایل، Serialization، برنامه‌سازی تحت شبکه
-              (socket)
-            </p>
-          </div>
-
-          <div>
-            <h3 className="text-lg font-bold text-gray-900 mb-3">
-              برنامه‌سازی همروند (۱ جلسه)
-            </h3>
-            <p className="text-gray-700">
-              نیاز به همروندی، همروندی در جاوا، طول عمر یک thread، آشنایی اولیه
-              با مفاهیم Synchronization و critical section
-            </p>
-          </div>
-
-          <div>
-            <h3 className="text-lg font-bold text-gray-900 mb-3">
-              Reflection (۱ جلسه)
-            </h3>
-            <p className="text-gray-700">
-              نیاز به RTTI، RTTI در جاوا، کاربردها
-            </p>
-          </div>
-        </div>
-      </div>
-
-      {/* Software Tools */}
-      <div className="bg-white rounded-lg shadow-md p-8 mb-8">
-        <h2 className="text-2xl font-bold text-gray-900 mb-6">
-          نرم‌افزار‌ها و ابزارهای مورد بحث
-        </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div>
-            <h3 className="text-lg font-bold text-gray-900 mb-3">
-              زبان برنامه‌نویسی
-            </h3>
-            <p className="text-gray-700">Java</p>
-          </div>
-          <div>
-            <h3 className="text-lg font-bold text-gray-900 mb-3">محیط توسعه</h3>
-            <p className="text-gray-700">IDE (IntelliJ IDEA, Eclipse, ...)</p>
+            <ul className="space-y-1 text-gray-700 list-disc pr-5">
+              <li>بدهی فنی و بوهای طراحی بر اساس نقض اصول PHAME</li>
+              <li>پژوهش‌های مرتبط با الگوها و پادالگوها</li>
+              <li>بازآرایی و refactoring به سمت الگوهای صحیح</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -354,22 +259,28 @@ export default function CourseDetails({ searchParams }) {
       {/* References */}
       <div className="bg-white rounded-lg shadow-md p-8 mb-8">
         <h2 className="text-2xl font-bold text-gray-900 mb-6">مراجع درس</h2>
-        <ol className="space-y-3 text-sm">
+        <ol className="space-y-3 text-sm list-decimal pr-5">
           <li className="text-gray-700">
-            P. Deitel, H. Deitel. Java How to Program, Early Objects. 11th
-            Edition, Pearson Education, 2017.
+            E. Gamma, R. Helm, R. Johnson, and J. Vlissides. Design Patterns,
+            Addison-Wesley, 1995.
           </li>
           <li className="text-gray-700">
-            B. Eckel. Thinking in Java. 4th Edition, Prentice Hall, 2006.
+            Martin, Robert C. Clean Architecture, Prentice Hall, 2018.
           </li>
           <li className="text-gray-700">
-            M. Fowler, K. Beck, J. Brant, W. Opdyke, and D. Roberts.
-            Refactoring: Improving the Design of Existing Code. Addison-Wesley,
-            1999.
+            Suryanarayana, Girish., Samarthyam, Ganesh., Sharma, Tushar.
+            Refactoring for Software Design Smells, Elsevier, 2014.
           </li>
           <li className="text-gray-700">
-            K. Sierra, B. Bates, and T. Gee. Head First Java. 3rd Edition,
-            O'Reilly Media, Inc, 2022.
+            Craig Larman. Applying UML and Patterns (2nd ed.), Prentice Hall,
+            2001.
+          </li>
+          <li className="text-gray-700">
+            J. Kerievsky. Refactoring to Patterns, Addison-Wesley, 2004.
+          </li>
+          <li className="text-gray-700">
+            Fowler, M., &amp; Beck, K. Refactoring: Improving the Design of
+            Existing Code (2nd ed.), Addison-Wesley, 2018.
           </li>
         </ol>
       </div>
@@ -379,11 +290,11 @@ export default function CourseDetails({ searchParams }) {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
           <div>
             <span className="font-bold text-gray-900">تهیه‌کننده:</span>
-            <span className="text-gray-700 mr-2">معصومه طارمی راد</span>
+            <span className="text-gray-700 mr-2">مرتضی ذاکری</span>
           </div>
           <div>
             <span className="font-bold text-gray-900">نگارش:</span>
-            <span className="text-gray-700 mr-2">۱.۰</span>
+            <span className="text-gray-700 mr-2">1.0</span>
           </div>
         </div>
       </div>
@@ -394,22 +305,22 @@ export default function CourseDetails({ searchParams }) {
           <button className="bg-blue-600 hover:bg-blue-700 text-white py-3 px-8 rounded-lg transition-colors">
             ثبت‌نام در دوره
           </button>
-          <Link
+          <a
             href="/courses"
             className="bg-gray-100 hover:bg-gray-200 text-gray-700 py-3 px-8 rounded-lg transition-colors"
           >
             بازگشت به لیست دوره‌ها
-          </Link>
+          </a>
         </div>
       )}
       {fromSyllabus && (
         <div className="mt-8 flex justify-center space-x-4 space-x-reverse">
-          <Link
+          <a
             href="/syllabus"
             className="bg-gray-100 hover:bg-gray-200 text-gray-700 py-3 px-8 rounded-lg transition-colors"
           >
             بازگشت به سرفصل دوره‌ها
-          </Link>
+          </a>
         </div>
       )}
     </MainLayout>
